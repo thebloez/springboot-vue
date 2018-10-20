@@ -1,0 +1,17 @@
+2018-10-19 21:31:25 c.e.s.SpringbootvueApplication Starting SpringbootvueApplication on ITI-00601- with PID 16156 (D:\THE_LAB\SpringBootVueJs\target\classes started by ryan.hidayat in D:\THE_LAB\SpringBootVueJs)
+2018-10-19 21:31:25 c.e.s.SpringbootvueApplication No active profile set, falling back to default profiles: default
+2018-10-19 21:32:27 c.e.s.SpringbootvueApplication Started SpringbootvueApplication in 82.571 seconds (JVM running for 109.875)
+2018-10-19 21:41:57 c.e.s.Controller.CustomerController Adding customer with name Ryan, and age 20
+2018-10-19 21:42:01 c.e.s.Controller.CustomerController Success save into db name : Ryan
+2018-10-19 21:42:09 c.e.s.Controller.CustomerController Adding customer with name Ryan, and age 20
+2018-10-19 21:42:09 c.e.s.Controller.CustomerController Success save into db name : Ryan
+2018-10-19 21:43:17 c.e.s.Controller.CustomerController Adding customer with name Thebloez, and age 25
+2018-10-19 21:43:17 c.e.s.Controller.CustomerController Success save into db name : Thebloez
+2018-10-19 21:44:55 c.e.s.SpringbootvueApplication Starting SpringbootvueApplication on ITI-00601- with PID 16548 (D:\THE_LAB\SpringBootVueJs\target\classes started by ryan.hidayat in D:\THE_LAB\SpringBootVueJs)
+2018-10-19 21:44:55 c.e.s.SpringbootvueApplication No active profile set, falling back to default profiles: default
+2018-10-19 21:45:40 c.e.s.SpringbootvueApplication Started SpringbootvueApplication in 54.584 seconds (JVM running for 76.492)
+2018-10-19 21:46:11 c.e.s.Controller.CustomerController Get all Customers ...
+2018-10-19 21:48:22 c.e.s.Controller.CustomerController try to updating customer with ID 1 
+2018-10-19 21:48:22 c.e.s.Controller.CustomerController customer with ID 1 has been updated
+2018-10-19 21:48:42 c.e.s.Controller.CustomerController try to updating customer with ID 10 
+2018-10-19 21:48:42 c.e.s.Controller.CustomerController customer with ID 10 is not exist

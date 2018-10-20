@@ -1,0 +1,306 @@
+2018-10-20 16:57:08 c.e.s.SpringbootvueApplication Starting SpringbootvueApplication on ITI-00601- with PID 3752 (D:\THE_LAB\SpringBootVueJs\target\classes started by ryan.hidayat in D:\THE_LAB\SpringBootVueJs)
+2018-10-20 16:57:08 c.e.s.SpringbootvueApplication No active profile set, falling back to default profiles: default
+2018-10-20 16:57:08 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b7a4e0: startup date [Sat Oct 20 16:57:08 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:10 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12be47b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-20 16:57:11 o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2018-10-20 16:57:11 o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:11 o.a.catalina.core.StandardService Starting service [Tomcat]
+2018-10-20 16:57:11 o.a.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-20 16:57:11 o.a.c.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\maven\\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\ryan.hidayat\AppData\Local\Microsoft\WindowsApps;C:\Users\ryan.hidayat\AppData\Roaming\npm;.]
+2018-10-20 16:57:11 o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2018-10-20 16:57:11 o.s.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3042 ms
+2018-10-20 16:57:11 o.s.b.w.s.ServletRegistrationBean Servlet dispatcherServlet mapped to [/]
+2018-10-20 16:57:11 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-20 16:57:11 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-20 16:57:11 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-20 16:57:11 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-20 16:57:12 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2018-10-20 16:57:12 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2018-10-20 16:57:12 o.s.o.j.LocalContainerEntityManagerFactoryBean Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:12 o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-20 16:57:12 org.hibernate.Version HHH000412: Hibernate Core {5.2.17.Final}
+2018-10-20 16:57:12 org.hibernate.cfg.Environment HHH000206: hibernate.properties not found
+2018-10-20 16:57:12 o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-20 16:57:13 org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-20 16:57:13 o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:14 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerAdapter Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b7a4e0: startup date [Sat Oct 20 16:57:08 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:14 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.getAllCustomers()
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer],methods=[POST]}" onto public com.example.springbootvue.model.Customer com.example.springbootvue.Controller.CustomerController.postCustomer(com.example.springbootvue.model.Customer)
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.updateCustomer(long,com.example.springbootvue.model.Customer)
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.example.springbootvue.Controller.CustomerController.deleteCustomer(long)
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers/{age}],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.findCustomerByAge(int)
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-20 16:57:14 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-20 16:57:15 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:15 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:15 o.s.j.e.a.AnnotationMBeanExporter Registering beans for JMX exposure on startup
+2018-10-20 16:57:15 o.s.j.e.a.AnnotationMBeanExporter Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-20 16:57:15 o.s.j.e.a.AnnotationMBeanExporter Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-20 16:57:15 o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:15 o.a.catalina.core.StandardService Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:261)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.springbootvue.SpringbootvueApplication.main(SpringbootvueApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1151)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-10-20 16:57:15 o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:15 o.a.catalina.core.StandardService Stopping service [Tomcat]
+2018-10-20 16:57:15 o.a.catalina.util.LifecycleBase The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-10-20 16:57:15 o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:15 o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:15 o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-10-20 16:57:15 o.s.b.d.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-20 16:57:15 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b7a4e0: startup date [Sat Oct 20 16:57:08 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:15 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans on shutdown
+2018-10-20 16:57:15 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans
+2018-10-20 16:57:15 o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:15 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2018-10-20 16:57:15 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2018-10-20 16:57:53 c.e.s.SpringbootvueApplication Starting SpringbootvueApplication on ITI-00601- with PID 17444 (D:\THE_LAB\SpringBootVueJs\target\classes started by ryan.hidayat in D:\THE_LAB\SpringBootVueJs)
+2018-10-20 16:57:53 c.e.s.SpringbootvueApplication No active profile set, falling back to default profiles: default
+2018-10-20 16:57:53 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eda5c9: startup date [Sat Oct 20 16:57:53 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:55 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e865230e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-20 16:57:55 o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2018-10-20 16:57:55 o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:55 o.a.catalina.core.StandardService Starting service [Tomcat]
+2018-10-20 16:57:55 o.a.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-20 16:57:55 o.a.c.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\maven\\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\ryan.hidayat\AppData\Local\Microsoft\WindowsApps;C:\Users\ryan.hidayat\AppData\Roaming\npm;.]
+2018-10-20 16:57:56 o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2018-10-20 16:57:56 o.s.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2385 ms
+2018-10-20 16:57:56 o.s.b.w.s.ServletRegistrationBean Servlet dispatcherServlet mapped to [/]
+2018-10-20 16:57:56 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-20 16:57:56 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-20 16:57:56 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-20 16:57:56 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-20 16:57:56 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2018-10-20 16:57:56 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2018-10-20 16:57:56 o.s.o.j.LocalContainerEntityManagerFactoryBean Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:56 o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-20 16:57:57 org.hibernate.Version HHH000412: Hibernate Core {5.2.17.Final}
+2018-10-20 16:57:57 org.hibernate.cfg.Environment HHH000206: hibernate.properties not found
+2018-10-20 16:57:57 o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-20 16:57:57 org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-20 16:57:57 o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:58 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerAdapter Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eda5c9: startup date [Sat Oct 20 16:57:53 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:58 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.example.springbootvue.Controller.CustomerController.deleteCustomer(long)
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.getAllCustomers()
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer],methods=[POST]}" onto public com.example.springbootvue.model.Customer com.example.springbootvue.Controller.CustomerController.postCustomer(com.example.springbootvue.model.Customer)
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.updateCustomer(long,com.example.springbootvue.model.Customer)
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers/{age}],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.findCustomerByAge(int)
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-20 16:57:58 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-20 16:57:58 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:58 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:57:59 o.s.j.e.a.AnnotationMBeanExporter Registering beans for JMX exposure on startup
+2018-10-20 16:57:59 o.s.j.e.a.AnnotationMBeanExporter Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-20 16:57:59 o.s.j.e.a.AnnotationMBeanExporter Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-20 16:57:59 o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:59 o.a.catalina.core.StandardService Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:261)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.springbootvue.SpringbootvueApplication.main(SpringbootvueApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1151)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-10-20 16:57:59 o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:59 o.a.catalina.core.StandardService Stopping service [Tomcat]
+2018-10-20 16:57:59 o.a.catalina.util.LifecycleBase The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-10-20 16:57:59 o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:59 o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:57:59 o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-10-20 16:57:59 o.s.b.d.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-20 16:57:59 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eda5c9: startup date [Sat Oct 20 16:57:53 ICT 2018]; root of context hierarchy
+2018-10-20 16:57:59 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans on shutdown
+2018-10-20 16:57:59 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans
+2018-10-20 16:57:59 o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:57:59 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2018-10-20 16:57:59 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2018-10-20 16:58:11 c.e.s.SpringbootvueApplication Starting SpringbootvueApplication on ITI-00601- with PID 15192 (D:\THE_LAB\SpringBootVueJs\target\classes started by ryan.hidayat in D:\THE_LAB\SpringBootVueJs)
+2018-10-20 16:58:11 c.e.s.SpringbootvueApplication No active profile set, falling back to default profiles: default
+2018-10-20 16:58:11 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@243c4f91: startup date [Sat Oct 20 16:58:11 ICT 2018]; root of context hierarchy
+2018-10-20 16:58:13 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25ab098] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-20 16:58:14 o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2018-10-20 16:58:14 o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:58:14 o.a.catalina.core.StandardService Starting service [Tomcat]
+2018-10-20 16:58:14 o.a.catalina.core.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-20 16:58:14 o.a.c.core.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\maven\\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\nodejs\;C:\Users\ryan.hidayat\AppData\Local\Microsoft\WindowsApps;C:\Users\ryan.hidayat\AppData\Roaming\npm;.]
+2018-10-20 16:58:14 o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2018-10-20 16:58:14 o.s.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3107 ms
+2018-10-20 16:58:14 o.s.b.w.s.ServletRegistrationBean Servlet dispatcherServlet mapped to [/]
+2018-10-20 16:58:14 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-20 16:58:14 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-20 16:58:14 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-20 16:58:14 o.s.b.w.s.FilterRegistrationBean Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-20 16:58:14 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2018-10-20 16:58:15 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2018-10-20 16:58:15 o.s.o.j.LocalContainerEntityManagerFactoryBean Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:58:15 o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-10-20 16:58:15 org.hibernate.Version HHH000412: Hibernate Core {5.2.17.Final}
+2018-10-20 16:58:15 org.hibernate.cfg.Environment HHH000206: hibernate.properties not found
+2018-10-20 16:58:15 o.h.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-20 16:58:15 org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-10-20 16:58:16 o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:58:17 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerAdapter Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@243c4f91: startup date [Sat Oct 20 16:58:11 ICT 2018]; root of context hierarchy
+2018-10-20 16:58:17 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer],methods=[POST]}" onto public com.example.springbootvue.model.Customer com.example.springbootvue.Controller.CustomerController.postCustomer(com.example.springbootvue.model.Customer)
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.example.springbootvue.Controller.CustomerController.deleteCustomer(long)
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.updateCustomer(long,com.example.springbootvue.model.Customer)
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.getAllCustomers()
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/api/customers/{age}],methods=[GET]}" onto public java.util.List<com.example.springbootvue.model.Customer> com.example.springbootvue.Controller.CustomerController.findCustomerByAge(int)
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-20 16:58:17 o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-20 16:58:17 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:58:17 o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-20 16:58:18 o.s.j.e.a.AnnotationMBeanExporter Registering beans for JMX exposure on startup
+2018-10-20 16:58:18 o.s.j.e.a.AnnotationMBeanExporter Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-20 16:58:18 o.s.j.e.a.AnnotationMBeanExporter Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-20 16:58:18 o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:58:18 o.a.catalina.core.StandardService Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:261)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.example.springbootvue.SpringbootvueApplication.main(SpringbootvueApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1151)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-10-20 16:58:18 o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:58:18 o.a.catalina.core.StandardService Stopping service [Tomcat]
+2018-10-20 16:58:18 o.a.catalina.util.LifecycleBase The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-10-20 16:58:18 o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:58:18 o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8080"]
+2018-10-20 16:58:18 o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-10-20 16:58:18 o.s.b.d.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-10-20 16:58:18 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@243c4f91: startup date [Sat Oct 20 16:58:11 ICT 2018]; root of context hierarchy
+2018-10-20 16:58:18 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans on shutdown
+2018-10-20 16:58:18 o.s.j.e.a.AnnotationMBeanExporter Unregistering JMX-exposed beans
+2018-10-20 16:58:18 o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-10-20 16:58:18 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2018-10-20 16:58:18 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
